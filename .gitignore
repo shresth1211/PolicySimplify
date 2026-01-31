@@ -1,0 +1,15 @@
+# Python
+venv/
+__pycache__/
+.env
+
+# OS junk
+desktop.ini
+.DS_Store
+
+# PDFs / uploads
+*.pdf
+uploads/
+
+# Node
+node_modules/

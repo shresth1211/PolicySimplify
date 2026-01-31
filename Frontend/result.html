@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Result</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">PolicySimplify</div>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="upload.html">Upload PDF</a>
+    <a href="browse.html">Browse Schemes</a>
+  </div>
+</nav>
+
+<section class="section">
+
+  <!-- 🔹 TITLE (Filled by JS) -->
+  <h2 id="title" class="center">Loading...</h2>
+
+  <!-- 🔹 RESULT CONTENT -->
+  <div class="result-box">
+
+    <h3>Eligibility</h3>
+    <ul id="eligibility"></ul>
+
+    <h3>Benefits</h3>
+    <ul id="benefits"></ul>
+
+    <h3>Documents Required</h3>
+    <ul id="documents"></ul>
+
+    <h3>Application Steps</h3>
+    <ol id="steps"></ol>
+
+    <h3>Deadline</h3>
+    <p id="deadline"></p>
+
+    <h3>Important Notes</h3>
+    <ul id="notes"></ul>
+
+  </div>
+
+  <!-- 🔹 BACK BUTTON -->
+  <div class="center" style="margin-top: 30px;">
+    <a href="browse.html" class="btn secondary">
+      Back to Browse
+    </a>
+  </div>
+
+</section>
+
+<script src="result.js"></script>
+</body>
+</html>

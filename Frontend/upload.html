@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload PDF</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">PolicySimplify</div>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="upload.html">Upload PDF</a>
+    <a href="browse.html">Browse Schemes</a>
+  </div>
+</nav>
+
+<section class="section center">
+  <h2>Upload Government Policy PDF</h2>
+  <p>Select an official PDF to simplify.</p>
+
+  <div class="upload-box">
+    <input type="file" id="pdf" accept="application/pdf">
+    <button class="btn primary" onclick="uploadPDF()">
+      Simplify Now
+    </button>
+  </div>
+</section>
+
+<script src="upload.js"></script>
+</body>
+</html>

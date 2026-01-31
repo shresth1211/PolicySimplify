@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Browse Schemes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">PolicySimplify</div>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="upload.html">Upload PDF</a>
+    <a href="browse.html">Browse Schemes</a>
+  </div>
+</nav>
+
+<section class="section">
+  <h2>Browse Government Schemes</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>PM Scholarship Scheme</h3>
+      <p>For college students</p>
+      <!-- ✅ BUTTON ADDED -->
+      <button class="btn secondary" onclick="viewResult('pm')">
+        View Details
+      </button>
+    </div>
+
+    <div class="card">
+      <h3>Merit-cum-Means Scholarship</h3>
+      <p>For minority students</p>
+      <button class="btn secondary" onclick="viewResult('merit')">
+        View Details
+      </button>
+    </div>
+  </div>
+</section>
+
+<script src="browse.js"></script>
+</body>
+</html>
